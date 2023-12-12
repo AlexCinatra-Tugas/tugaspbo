@@ -65,7 +65,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("PMingLiU-ExtB", 48F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(12, 119);
+            label2.Location = new Point(12, 77);
             label2.Name = "label2";
             label2.Size = new Size(127, 64);
             label2.TabIndex = 1;
@@ -75,7 +75,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("PMingLiU-ExtB", 48F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
-            label3.Location = new Point(-2, 199);
+            label3.Location = new Point(-2, 157);
             label3.Name = "label3";
             label3.Size = new Size(266, 64);
             label3.TabIndex = 2;
@@ -87,7 +87,7 @@
             label4.BackColor = Color.LightGray;
             label4.Font = new Font("PMingLiU-ExtB", 12F, FontStyle.Bold, GraphicsUnit.Point);
             label4.ForeColor = Color.DimGray;
-            label4.Location = new Point(24, 279);
+            label4.Location = new Point(24, 237);
             label4.Name = "label4";
             label4.Size = new Size(337, 16);
             label4.TabIndex = 3;
@@ -96,7 +96,7 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(24, 376);
+            pictureBox1.Location = new Point(23, 290);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(41, 39);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
@@ -106,7 +106,7 @@
             // pictureBox2
             // 
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(24, 460);
+            pictureBox2.Location = new Point(23, 374);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(41, 35);
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
@@ -116,7 +116,7 @@
             // panel1
             // 
             panel1.BackColor = Color.DimGray;
-            panel1.Location = new Point(24, 421);
+            panel1.Location = new Point(23, 335);
             panel1.Name = "panel1";
             panel1.Size = new Size(417, 1);
             panel1.TabIndex = 6;
@@ -124,7 +124,7 @@
             // panel2
             // 
             panel2.BackColor = Color.DimGray;
-            panel2.Location = new Point(24, 501);
+            panel2.Location = new Point(23, 415);
             panel2.Name = "panel2";
             panel2.Size = new Size(417, 1);
             panel2.TabIndex = 7;
@@ -135,7 +135,7 @@
             checkBox1.BackColor = Color.LightGray;
             checkBox1.Font = new Font("Rockwell", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
             checkBox1.ForeColor = Color.Gray;
-            checkBox1.Location = new Point(24, 551);
+            checkBox1.Location = new Point(23, 465);
             checkBox1.Name = "checkBox1";
             checkBox1.Size = new Size(148, 24);
             checkBox1.TabIndex = 8;
@@ -147,7 +147,7 @@
             button1.BackColor = Color.Black;
             button1.BackgroundImageLayout = ImageLayout.None;
             button1.ForeColor = SystemColors.ButtonFace;
-            button1.Location = new Point(12, 621);
+            button1.Location = new Point(11, 535);
             button1.Name = "button1";
             button1.Size = new Size(438, 50);
             button1.TabIndex = 10;
@@ -161,7 +161,7 @@
             linkLabel1.Font = new Font("Rockwell", 12F, FontStyle.Bold, GraphicsUnit.Point);
             linkLabel1.LinkBehavior = LinkBehavior.NeverUnderline;
             linkLabel1.LinkColor = Color.Gray;
-            linkLabel1.Location = new Point(261, 551);
+            linkLabel1.Location = new Point(260, 465);
             linkLabel1.Name = "linkLabel1";
             linkLabel1.Size = new Size(152, 19);
             linkLabel1.TabIndex = 13;
@@ -195,7 +195,7 @@
             // 
             txt_username.BackColor = Color.LightGray;
             txt_username.BorderStyle = BorderStyle.None;
-            txt_username.Location = new Point(71, 376);
+            txt_username.Location = new Point(70, 290);
             txt_username.Name = "txt_username";
             txt_username.Size = new Size(359, 26);
             txt_username.TabIndex = 16;
@@ -205,7 +205,7 @@
             // 
             txt_password.BackColor = Color.LightGray;
             txt_password.BorderStyle = BorderStyle.None;
-            txt_password.Location = new Point(71, 460);
+            txt_password.Location = new Point(70, 374);
             txt_password.Name = "txt_password";
             txt_password.Size = new Size(359, 26);
             txt_password.TabIndex = 17;
@@ -213,7 +213,7 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(12, 584);
+            label6.Location = new Point(11, 498);
             label6.Name = "label6";
             label6.Size = new Size(65, 28);
             label6.TabIndex = 18;
@@ -225,7 +225,7 @@
             AutoScaleDimensions = new SizeF(13F, 28F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LightGray;
-            ClientSize = new Size(462, 690);
+            ClientSize = new Size(462, 621);
             Controls.Add(label6);
             Controls.Add(txt_password);
             Controls.Add(txt_username);

@@ -88,18 +88,24 @@ namespace WinFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
+            string msg = "The Propose has been Decline";
+            MessageBox.Show(msg);
             new Form5().Show();
             this.Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
+            string msg = "The Propose has been Accept";
+            MessageBox.Show(msg);
             new Form5().Show();
             this.Hide();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
+            string msg = "succes to report";
+            MessageBox.Show(msg);
             new Form5().Show();
             this.Hide();
         }

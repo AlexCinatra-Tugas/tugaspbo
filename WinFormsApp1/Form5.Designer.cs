@@ -32,12 +32,12 @@
             label1 = new Label();
             label2 = new Label();
             button1 = new Button();
-            label3 = new Label();
-            label4 = new Label();
-            label5 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
+            compname = new Label();
+            amount = new Label();
+            year = new Label();
+            getcompname = new TextBox();
+            getamount = new TextBox();
+            getyear = new TextBox();
             checkedListBox1 = new CheckedListBox();
             button2 = new Button();
             SuspendLayout();
@@ -87,57 +87,61 @@
             button1.TabIndex = 4;
             button1.Text = "Edit";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
-            // label3
+            // compname
             // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(52, 170);
-            label3.Name = "label3";
-            label3.Size = new Size(98, 21);
-            label3.TabIndex = 5;
-            label3.Text = "Comp Name";
+            compname.AutoSize = true;
+            compname.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            compname.Location = new Point(52, 170);
+            compname.Name = "compname";
+            compname.Size = new Size(98, 21);
+            compname.TabIndex = 5;
+            compname.Text = "Comp Name";
+            compname.Click += label3_Click;
             // 
-            // label4
+            // amount
             // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label4.Location = new Point(52, 204);
-            label4.Name = "label4";
-            label4.Size = new Size(132, 21);
-            label4.TabIndex = 6;
-            label4.Text = "Amount Provided";
+            amount.AutoSize = true;
+            amount.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            amount.Location = new Point(52, 204);
+            amount.Name = "amount";
+            amount.Size = new Size(132, 21);
+            amount.TabIndex = 6;
+            amount.Text = "Amount Provided";
+            amount.Click += label4_Click;
             // 
-            // label5
+            // year
             // 
-            label5.AutoSize = true;
-            label5.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label5.Location = new Point(52, 246);
-            label5.Name = "label5";
-            label5.Size = new Size(40, 21);
-            label5.TabIndex = 7;
-            label5.Text = "Year";
+            year.AutoSize = true;
+            year.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            year.Location = new Point(52, 246);
+            year.Name = "year";
+            year.Size = new Size(40, 21);
+            year.TabIndex = 7;
+            year.Text = "Year";
             // 
-            // textBox1
+            // getcompname
             // 
-            textBox1.Location = new Point(483, 172);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(203, 23);
-            textBox1.TabIndex = 11;
+            getcompname.Location = new Point(483, 172);
+            getcompname.Name = "getcompname";
+            getcompname.Size = new Size(203, 23);
+            getcompname.TabIndex = 11;
+            getcompname.TextChanged += textBox1_TextChanged;
             // 
-            // textBox2
+            // getamount
             // 
-            textBox2.Location = new Point(483, 206);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(203, 23);
-            textBox2.TabIndex = 12;
+            getamount.Location = new Point(483, 206);
+            getamount.Name = "getamount";
+            getamount.Size = new Size(203, 23);
+            getamount.TabIndex = 12;
             // 
-            // textBox3
+            // getyear
             // 
-            textBox3.Location = new Point(483, 248);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(203, 23);
-            textBox3.TabIndex = 13;
+            getyear.Location = new Point(483, 248);
+            getyear.Name = "getyear";
+            getyear.Size = new Size(203, 23);
+            getyear.TabIndex = 13;
             // 
             // checkedListBox1
             // 
@@ -167,12 +171,12 @@
             ClientSize = new Size(799, 535);
             Controls.Add(button2);
             Controls.Add(checkedListBox1);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
-            Controls.Add(label5);
-            Controls.Add(label4);
-            Controls.Add(label3);
+            Controls.Add(getyear);
+            Controls.Add(getamount);
+            Controls.Add(getcompname);
+            Controls.Add(year);
+            Controls.Add(amount);
+            Controls.Add(compname);
             Controls.Add(button1);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -190,12 +194,12 @@
         private Label label1;
         private Label label2;
         private Button button1;
-        private Label label3;
-        private Label label4;
-        private Label label5;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox3;
+        private Label compname;
+        private Label amount;
+        private Label year;
+        private TextBox getcompname;
+        private TextBox getamount;
+        private TextBox getyear;
         private CheckedListBox checkedListBox1;
         private Button button2;
     }
