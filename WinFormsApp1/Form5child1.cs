@@ -44,6 +44,7 @@ namespace WinFormsApp1
             button2.TabIndex = 9;
             button2.Text = "Accept";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // button3
             // 
@@ -54,6 +55,7 @@ namespace WinFormsApp1
             button3.TabIndex = 10;
             button3.Text = "report";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // button1
             // 
@@ -64,6 +66,7 @@ namespace WinFormsApp1
             button1.TabIndex = 8;
             button1.Text = "Decline";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // Form5child1
             // 
@@ -82,5 +85,23 @@ namespace WinFormsApp1
         private Button button2;
         private Button button1;
         private Button button3;
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            new Form5().Show();
+            this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            new Form5().Show();
+            this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            new Form5().Show();
+            this.Hide();
+        }
     }
 }

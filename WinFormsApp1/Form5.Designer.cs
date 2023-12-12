@@ -158,6 +158,7 @@
             button2.TabIndex = 15;
             button2.Text = "Action";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // Form5
             // 

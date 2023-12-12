@@ -121,6 +121,7 @@
             button3.TabIndex = 23;
             button3.Text = "Report The Instance";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // button2
             // 
@@ -131,6 +132,7 @@
             button2.TabIndex = 22;
             button2.Text = "Send";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // Form4child1
             // 
